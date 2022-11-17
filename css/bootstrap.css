@@ -1444,7 +1444,7 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .carousel-inner>.item>a>img,
@@ -2324,7 +2324,10 @@ pre code {
     }
 
     .col-sm-12 {
-        width: 100%
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .col-sm-11 {
