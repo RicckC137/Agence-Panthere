@@ -753,7 +753,6 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, .7);
     padding: 40px 40px 40px 40px
 }
 
@@ -788,12 +787,12 @@ h4 {
     color: #FFFFFF !important
 }
 
-.ltc-white {
-    color: #FFFFFF !important
+.ltc-black {
+    color: #090000
 }
 
 .ltc-white:hover {
-    color: #cccccc !important
+    color: #090000
 }
 
 .ltc-atomic-tangerine {
