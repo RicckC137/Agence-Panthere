@@ -1090,3 +1090,13 @@ h4 {
 .btn-zoom:hover {
     transform: scale(1.2)
 }
+
+
+.col-sm-4 {
+    color: #000;
+
+}
+
+.col-sm-4 li {
+    color: #000;
+}
