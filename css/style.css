@@ -101,11 +101,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7)
+    color: #FFFFFF;
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9)
+    color: #FFFFFF;
 }
 
 .d-bloc .icon-round,
@@ -779,7 +779,7 @@ h4 {
 }
 
 .tc-black {
-    color: black;
+    color: white;
 }
 
 .btn-atomic-tangerine {
