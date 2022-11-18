@@ -710,6 +710,9 @@ p {
 }
 
 .social {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     margin: auto auto auto auto
 }
 
@@ -1099,4 +1102,10 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.bg-banniere {
+    background-image: url("../img/agence-la-panthere\ \(1\).webp");
+    width: 100%;
+    background-attachment: scroll;
 }
