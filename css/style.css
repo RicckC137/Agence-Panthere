@@ -49,9 +49,6 @@ a:hover {
     padding-right: 0
 }
 
-.bloc-lg {
-    padding: 50px 50px
-}
 
 .bloc-md {
     padding: 50px
@@ -59,6 +56,27 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px
+}
+
+.citation {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.citation-name {
+    font-style: italic;
+}
+
+.presentation-panthere {
+    font-family: "helvetica";
+    font-size: xx-large;
+    position: absolute;
+    top: 100px;
+}
+
+.background-image {
+    background-image: url(../img/texture.webp);
 }
 
 .bg-center,
@@ -362,6 +380,10 @@ a:hover {
     z-index: 2
 }
 
+.navbar-header {
+    width: 100%;
+}
+
 .logo-header {
     height: 100%
 }
@@ -447,7 +469,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
+    margin-top: 60px;
     margin-bottom: 20px
 }
 
@@ -708,9 +730,7 @@ p {
 }
 
 .social {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+
     margin: auto auto auto auto
 }
 
@@ -749,10 +769,6 @@ h4 {
     margin-bottom: 24px
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px
-}
 
 .avatar {
     box-shadow: 0 4px 9px rgba(0, 0, 0, .3)
@@ -994,7 +1010,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0
+        padding: 0px 0
     }
 
     .bloc-sm,
@@ -1083,11 +1099,17 @@ h4 {
 }
 
 .image-width {
-    width: 100%
+    width: 100%;
+    height: 300px;
 }
 
 .img-dimension {
-    width: 100px
+    width: 100px;
+    padding-top: 30px;
+}
+
+.height {
+    height: 300px;
 }
 
 .col-sm-12 {
@@ -1098,7 +1120,23 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../img/agence-la-panthere\ \(1\).webp");
+    background-image: url("../img/agence-la-panthere.webp");
     width: 100%;
     background-attachment: scroll
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.flexdirection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.height200 {
+    height: 200px;
 }
