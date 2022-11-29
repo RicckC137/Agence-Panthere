@@ -287,9 +287,8 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .row-no-gutters {
