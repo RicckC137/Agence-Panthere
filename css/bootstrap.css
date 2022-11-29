@@ -5057,22 +5057,19 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li.disabled>a:hover {
     color: #777;
     text-decoration: none;
-    cursor: not-allowed;
-    background-color: transparent
+    cursor: not-allowed
 }
 
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
-    background-color: #eee;
     border-color: #337ab7
 }
 
 .nav .nav-divider {
     height: 1px;
     margin: 9px 0;
-    overflow: hidden;
-    background-color: #e5e5e5
+    overflow: hidden
 }
 
 .nav>li>a>img {
