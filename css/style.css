@@ -311,6 +311,10 @@ a:hover {
     z-index: 1
 }
 
+.row {
+    width: 100%
+}
+
 .navbar-brand {
     height: 40px;
     padding: 3px 15px;
